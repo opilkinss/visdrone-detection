@@ -1,0 +1,34 @@
+{
+  "models": [
+    {
+      "id": "fast",
+      "name": "YOLO26l — Быстрая",
+      "description": "imgsz=640, быстрый инференс ~8ms",
+      "weights_file": "yolo26l_fast_640.pt",
+      "imgsz": 640,
+      "map50": 0.44,
+      "inference_ms": 8.4
+    },
+    {
+      "id": "accurate",
+      "name": "YOLO26l — Точная",
+      "description": "imgsz=1280, выше точность ~25ms",
+      "weights_file": "yolo26l_accurate_1280.pt",
+      "imgsz": 1280,
+      "map50": 0.588,
+      "inference_ms": 25.0
+    }
+  ],
+  "classes": [
+    "pedestrian",
+    "people",
+    "bicycle",
+    "car",
+    "van",
+    "truck",
+    "tricycle",
+    "awning-tricycle",
+    "bus",
+    "motor"
+  ]
+}
