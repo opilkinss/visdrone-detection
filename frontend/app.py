@@ -16,7 +16,7 @@ from PIL import Image, ImageDraw, ImageFont
 # Конфигурация
 # ──────────────────────────────────────────────────────────────────────────
 
-API_URL = os.environ.get("API_URL", "http://localhost:8000")
+API_URL = os.environ.get("API_URL", "https://Miloslava-visdrone-backend.hf.space")
 
 # Папка с несколькими примерами для кнопки "случайное изображение"
 TEST_IMAGES_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "test_samples")
